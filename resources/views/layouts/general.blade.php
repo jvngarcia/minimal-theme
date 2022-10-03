@@ -6,20 +6,24 @@
 
         <title>@yield('title') | Minimal Theme</title>
 
+
         @vite(['resources/js/app.js'])
         @vite(['resources/css/app.css'])
+
+        @yield('css')
     </head>
     <body>
         
         @include('layouts.header-principal')
 
-        <div class="container-fluid">
+        <div class="container-fluid py-4">
             <div class="container">
                 @yield('content')
             </div>
         </div>
 
-
         @include('layouts.footer-principal')
+
+        @yield('js')
     </body>
 </html>
