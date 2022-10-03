@@ -13,10 +13,10 @@
                 <img src="https://unavatar.io/kikobeats" class="card-img-top img-fluid" alt="title" />
                 <div class="card-body">
                     <span class="card-category">CATEGORIA</span>
-                    <h6 class="card-title">{title}</h6>
+                    <h6 class="card-title">Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd</h6>
                     <div class="d-flex justify-content-between">
-                        <p class="card-text card-author mb-0">{ user }</p>
-                        <p class="card-text card-date">{ date }</p>
+                        <p class="card-text card-author mb-0">Angel Garcia</p>
+                        <p class="card-text card-date">9 May 2022</p>
                     </div>
                 </div>
             </div>
