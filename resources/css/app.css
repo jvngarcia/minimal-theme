@@ -3,3 +3,8 @@
 body{
     background-color: #F8F8F8;
 }
+
+form input.form-control{
+    border: 0 !important;
+    background: #F8F8F8 !important;
+}
