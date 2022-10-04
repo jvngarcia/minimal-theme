@@ -7,9 +7,27 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+h1{
+    font-size: 33px;
+    line-height: 1.5em;
 }
 
 form input.form-control{
     border: 0 !important;
     background: #F8F8F8 !important;
+}
+
+
+@media ( min-width: 1024px ) {
+    .container-compact{
+        width: 800px;
+    }
+
+    .content-compact{
+        margin: 0 80px;
+    }
 }
