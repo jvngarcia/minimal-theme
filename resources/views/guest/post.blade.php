@@ -14,6 +14,7 @@
                 <div class="content-compact">
                     <a href="{{ URL::previous() }}" class="text-decoration-none">Regresar</a>
                     <h1 class="mt-3">{{ $post->name }}</h1>
+                    <p>Ángel García | <span>{{ $post->category }}</span> | <span>{{ date( 'M Y', strtotime($post->created_at) ) }}</span></p>
                 </div>
             </section>
         </section>
@@ -27,12 +28,7 @@
         <section class="d-flex justify-content-center py-5">
             <section class="container-compact">
                 <div class="content-compact">
-                    <p>{{ $post->content }}</p>
-                    <h2>{{ $post->name }}</h2>
-                    <p>{{ $post->content }}</p>
-                    <p>{{ $post->content }}</p>
-                    <h2>{{ $post->name }}</h2>
-                    <p>{{ $post->content }}</p>
+                    {!! Str::markdown($post->content) !!}
                 </div>
             </section>
         </section>
