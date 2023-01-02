@@ -17,7 +17,7 @@
                             <span class="card-category">{{ $post->category }}</span>
                             <h6 class="card-title">{{ $post->name }}</h6>
                             <div class="d-flex justify-content-between">
-                                <p class="card-text card-author mb-0">Angel Garcia</p>
+                                <p class="card-text card-author mb-0">{{ $post->authors->name }}</p>
                                 <p class="card-text card-date">{{ date( 'M Y', strtotime($post->created_at) ) }}</p>
                             </div>
                         </div>

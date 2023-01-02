@@ -25,6 +25,7 @@ class PostSeeder extends Seeder
             'content' => 'Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd.',
             'image' => 'https://unavatar.io/kikobeats',
             'category' => 'Top',
+            'author' => 1
         ]);
 
         Post::create([
@@ -34,6 +35,7 @@ class PostSeeder extends Seeder
             'content' => 'Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd.',
             'image' => 'https://unavatar.io/kikobeats',
             'category' => 'Top',
+            'author' => 1
         ]);
 
         Post::create([
@@ -43,6 +45,7 @@ class PostSeeder extends Seeder
             'content' => 'Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd.',
             'image' => 'https://unavatar.io/kikobeats',
             'category' => 'Top',
+            'author' => 1
         ]);
     }
 }

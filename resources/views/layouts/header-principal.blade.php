@@ -5,7 +5,7 @@
             <div class='row'>
                 <div class='col-md-4 d-md-block justify-content-md-start d-flex justify-content-center'>
                     <a class="navbar-brand" href="{{ route('home') }}">
-                        THE PROYECT MANAGER
+                        MundoIA
                     </a>
                 </div>
 
@@ -15,7 +15,7 @@
                     </form>
                 </div>
                 <div class='col-md-4 d-flex justify-content-end align-items-center'>
-                    
+
                 </div>
             </div>
             </div>
