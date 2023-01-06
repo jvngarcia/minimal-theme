@@ -24,7 +24,7 @@ class PostSeeder extends Seeder
             'extract' => 'Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd',
             'content' => 'Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd.',
             'image' => 'https://unavatar.io/kikobeats',
-            'category' => 'Top',
+            'category' => 1,
             'author' => 1
         ]);
 
@@ -34,7 +34,7 @@ class PostSeeder extends Seeder
             'extract' => 'Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd',
             'content' => 'Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd.',
             'image' => 'https://unavatar.io/kikobeats',
-            'category' => 'Top',
+            'category' => 1,
             'author' => 1
         ]);
 
@@ -44,7 +44,7 @@ class PostSeeder extends Seeder
             'extract' => 'Lorem ipsun dolore sit a ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd',
             'content' => 'Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, Lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd, lorem ipsun dolore sit a met dor me practice loremasd asd asd asdasd asd.',
             'image' => 'https://unavatar.io/kikobeats',
-            'category' => 'Top',
+            'category' => 1,
             'author' => 1
         ]);
     }

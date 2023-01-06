@@ -7,14 +7,14 @@
 @section('title', 'Home')
 
 @section('content')
-    
+
     <article class="entry-content">
         <section class="d-flex justify-content-center py-5">
             <section class="container-compact">
                 <div class="content-compact">
                     <a href="{{ URL::previous() }}" class="text-decoration-none">Regresar</a>
                     <h1 class="mt-3">{{ $post->name }}</h1>
-                    <p>Ángel García | <span>{{ $post->category }}</span> | <span>{{ date( 'M Y', strtotime($post->created_at) ) }}</span></p>
+                    <p>{{ $post->authors->name }} | <span>{{ $post->categories->name }}</span> | <span>{{  \Carbon\Carbon::parse($post->created_at)->format('F Y') }}</span></p>
                 </div>
             </section>
         </section>
@@ -34,5 +34,5 @@
         </section>
     </article>
 
-    
+
 @endsection
