@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\Post;
 use Illuminate\Http\Request;
 
@@ -29,5 +30,14 @@ class PostController extends Controller
                     ->get();
 
         return view( 'guest.posts', compact('search', 'posts') );
+    }
+
+    public function category(Category $category) {
+
+        // $category = $request->slug;
+
+        $posts = $category->posts;
+
+        return view( 'guest.posts_categories', compact('category', 'posts') );
     }
 }

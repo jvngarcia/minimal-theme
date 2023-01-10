@@ -18,7 +18,7 @@ class CategorySeeder extends Seeder
         Category::create([
             'slug' => 'Top',
             'name' => 'Top',
-            'description' => 'Top',
+            'description' => 'Lo mejor de lo mejor',
             'icon' => 'https://unavatar.io/kikobeats',
             'color' => '#009ca5',
         ]);

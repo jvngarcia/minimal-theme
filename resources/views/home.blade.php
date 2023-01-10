@@ -14,7 +14,7 @@
                     <div class="card mx-1">
                         <img src="{{ $post->image }}" class="card-img-top img-fluid" alt="{{ $post->name }}" />
                         <div class="card-body">
-                            <span class="card-category">{{ $post->categories->name }}</span>
+                            <a href="{{ route('blog.category', $post->categories) }}" class="card-category text-decoration-none">{{ $post->categories->name }}</a>
                             <h6 class="card-title">{{ $post->name }}</h6>
                             <div class="d-flex justify-content-between">
                                 <p class="card-text card-author mb-0">{{ $post->authors->name }}</p>
