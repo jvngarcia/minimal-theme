@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title') | Minimal Theme</title>
+        <title>@yield('title') | Ecosistema Canino</title>
 
         {{-- Fuente Poppins --}}
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
         @yield('css')
     </head>
     <body>
-        
+
         @include('layouts.header-principal')
 
         <div class="container-fluid py-4">

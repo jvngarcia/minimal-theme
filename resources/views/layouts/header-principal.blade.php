@@ -5,7 +5,7 @@
             <div class='row'>
                 <div class='col-md-4 d-md-block justify-content-md-start d-flex justify-content-center'>
                     <a class="navbar-brand" href="{{ route('home') }}">
-                        MundoIA
+                        Ecosistema Canino
                     </a>
                 </div>
 

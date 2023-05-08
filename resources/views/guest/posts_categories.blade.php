@@ -4,7 +4,7 @@
     @vite(['resources/css/posts.css'])
 @endsection
 
-@section('title', 'Home')
+@section('title', $category->name)
 
 @section('content')
     <h1>{{ $category->name }}</h1>

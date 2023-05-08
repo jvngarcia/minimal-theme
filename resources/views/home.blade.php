@@ -4,7 +4,7 @@
     @vite(['resources/css/posts.css'])
 @endsection
 
-@section('title', 'Home')
+@section('title', 'Incio')
 
 @section('content')
     <section class="row">
