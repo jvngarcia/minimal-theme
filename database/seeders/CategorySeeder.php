@@ -24,137 +24,41 @@ class CategorySeeder extends Seeder
         ]);
 
         Category::create([
-            'slug' => 'Tecnologia',
-            'name' => 'Tecnologia',
-            'description' => 'Tecnologia',
+            'slug' => 'cuidado-de-mascotas',
+            'name' => 'Cuidado de mascotas',
+            'description' => 'Esta categoría incluye temas como el aseo, la alimentación, el entrenamiento y la salud y el bienestar en general.',
             'icon' => 'https://unavatar.io/kikobeats',
             'color' => '#009ca5',
         ]);
 
         Category::create([
-            'slug' => 'Deportes',
-            'name' => 'Deportes',
-            'description' => 'Deportes',
+            'slug' => 'adopcion-de-mascotas',
+            'name' => 'Adopción de mascotas',
+            'description' => 'Esta categoría proporciona información sobre cómo adoptar una mascota, así como recursos para encontrar una mascota que se adapte a su estilo de vida.',
             'icon' => 'https://unavatar.io/kikobeats',
             'color' => '#009ca5',
         ]);
 
         Category::create([
-            'slug' => 'Entretenimiento',
-            'name' => 'Entretenimiento',
-            'description' => 'Entretenimiento',
+            'slug' => 'noticias-y-eventos',
+            'name' => 'Noticias y Eventos',
+            'description' => 'Mantente actualizado sobre las últimas noticias y eventos en el mundo de las mascotas, como nuevos productos y servicios, próximos eventos y noticias sobre bienestar animal.',
             'icon' => 'https://unavatar.io/kikobeats',
             'color' => '#009ca5',
         ]);
 
         Category::create([
-            'slug' => 'Salud',
-            'name' => 'Salud',
-            'description' => 'Salud',
+            'slug' => 'historias-y-consejos-sobre-mascotas',
+            'name' => 'Historias y consejos sobre mascotas',
+            'description' => 'Esta categoría presenta historias conmovedoras sobre mascotas, así como consejos prácticos de expertos sobre cómo cuidar mejor a su mascota.',
             'icon' => 'https://unavatar.io/kikobeats',
             'color' => '#009ca5',
         ]);
 
         Category::create([
-            'slug' => 'Ciencia',
-            'name' => 'Ciencia',
-            'description' => 'Ciencia',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Negocios',
-            'name' => 'Negocios',
-            'description' => 'Negocios',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Cultura',
-            'name' => 'Cultura',
-            'description' => 'Cultura',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Mundo',
-            'name' => 'Mundo',
-            'description' => 'Mundo',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Opinion',
-            'name' => 'Opinion',
-            'description' => 'Opinion',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Politica',
-            'name' => 'Politica',
-            'description' => 'Politica',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Economia',
-            'name' => 'Economia',
-            'description' => 'Economia',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Educacion',
-            'name' => 'Educacion',
-            'description' => 'Educacion',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Sociedad',
-            'name' => 'Sociedad',
-            'description' => 'Sociedad',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Ciudad',
-            'name' => 'Ciudad',
-            'description' => 'Ciudad',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Medio Ambiente',
-            'name' => 'Medio Ambiente',
-            'description' => 'Medio Ambiente',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Viajes',
-            'name' => 'Viajes',
-            'description' => 'Viajes',
-            'icon' => 'https://unavatar.io/kikobeats',
-            'color' => '#009ca5',
-        ]);
-
-        Category::create([
-            'slug' => 'Estilo de vida',
-            'name' => 'Estilo de vida',
-            'description' => 'Estilo de vida',
+            'slug' => 'humor',
+            'name' => 'Humor',
+            'description' => 'Esta categoría proporciona una mirada alegre al mundo de las mascotas, con historias divertidas, fotos y videos.',
             'icon' => 'https://unavatar.io/kikobeats',
             'color' => '#009ca5',
         ]);
