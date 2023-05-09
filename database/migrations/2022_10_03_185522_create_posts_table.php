@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('extract');
             $table->longText('content');
+            $table->string('keywords');
             $table->string('image');
             $table->foreignId('category')->references('id')->on('categories')->onDelete('cascade');
             $table->foreignId('author')->references('id')->on('users')->onDelete('cascade');

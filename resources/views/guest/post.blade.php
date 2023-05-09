@@ -6,6 +6,9 @@
 
 @section('title', $post->name)
 
+@section('description', $post->extract)
+@section('keywords', $post->keywords)
+
 @section('content')
 
     <article class="entry-content">

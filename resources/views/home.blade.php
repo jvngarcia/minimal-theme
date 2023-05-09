@@ -6,6 +6,9 @@
 
 @section('title', 'Incio')
 
+@section('description', 'Accede y descubre todas la información de veterinarias y tiendas de mascotas.')
+@section('keywords', 'Veterinarias en caracas, veterinarias en venezuela, tiendas de mascotas en venezuela, tiendas de mascotas en caracas')
+
 @section('content')
     <section class="row">
         @foreach ($posts as $post)

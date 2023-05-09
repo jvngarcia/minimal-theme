@@ -6,6 +6,9 @@
 
         <title>@yield('title') | Ecosistema Canino</title>
 
+        <meta name="description" content="@yield('description')">
+        <meta name="keywords" content="@yield('keywords')">
+        <meta name="author" content="JVN García">
         {{-- Fuente Poppins --}}
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
