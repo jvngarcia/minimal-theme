@@ -106,7 +106,7 @@ Hay muchos beneficios de tener un perro de alta energía. Por un lado, estos per
 ## ¿Cuáles son los desafíos de tener un perro de alta energía?*
 El mayor desafío de tener un perro con mucha energía es asegurarse de que haga suficiente ejercicio. Si no tiene el tiempo o la energía para proporcionarle a su perro el ejercicio que necesita, puede aburrirse, ser destructivo e incluso agresivo. Además, los perros con mucha energía pueden ser más costosos de cuidar que los perros con poca energía. Es posible que necesiten más comida, juguetes y atención veterinaria.
 Si está pensando en tener un perro con mucha energía, es importante que investigue y se asegure de estar preparado para el compromiso. Estos perros no son para todos, pero si tienes el tiempo y la energía para darles lo que necesitan, pueden ser compañeros maravillosos.',
-            'image' => 'https://unavatar.io/kikobeats',
+            'image' => 'https://gbzxvkaqkoonnjdjgzbq.supabase.co/storage/v1/object/public/ecosistema-canino/blog/cuanta-energia-necesitas-para-tener-un-perro-con-energia.png?t=2023-05-09T14%3A27%3A56.863Z',
             'category' => 2,
             'author' => 1,
             'keywords' => 'perros con más energía, perros con mucha energia, perros con mas energia, cuales son los perros que tienen mas energia, el border collie tiene mucha energia, que perros tienen gran cantidad de energia'
