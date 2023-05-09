@@ -15,7 +15,7 @@
     margin-top: 5px;
     text-overflow:ellipsis;
     overflow:hidden;
-    display:-webkit-box; 
+    display:-webkit-box;
     -webkit-box-orient:vertical;
     -webkit-line-clamp:2;
 
@@ -36,7 +36,7 @@
     width: 150px;
     text-overflow:ellipsis;
     overflow:hidden;
-    display:-webkit-box; 
+    display:-webkit-box;
     -webkit-box-orient:vertical;
     -webkit-line-clamp:1;
 }
@@ -63,9 +63,16 @@
     margin-top: 56px;
 }
 
+.entry-content h2{
+    font-size: 20px;
+    line-height: 36px;
+    margin-top: 56px;
+}
+
 .entry-content ul{
     padding-left: 0;
     margin-left: 19px;
+    margin-top: 30px;
 }
 
 .entry-content li{
