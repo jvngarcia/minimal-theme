@@ -10,6 +10,15 @@
 @section('keywords', 'Veterinarias en caracas, veterinarias en venezuela, tiendas de mascotas en venezuela, tiendas de mascotas en caracas')
 
 @section('content')
+    <div>
+        <h2>Veterinarias</h2>
+
+
+        @foreach ($veterinaries as $veterinary)
+            {{ $veterinary }}
+        @endforeach
+    </div>
+
     <section class="row">
         @foreach ($posts as $post)
             <article class="col-lg-3 col-md-4 col-sm-6 py-3">
