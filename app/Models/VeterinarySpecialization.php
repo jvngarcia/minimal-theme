@@ -9,7 +9,7 @@ class VeterinarySpecialization extends Model
 {
     use HasFactory;
 
-    protected $table = 'veterinary_specialization';
+    protected $table = 'specialization_veterinary';
 
     protected $fillable = [
         'veterinary_id',

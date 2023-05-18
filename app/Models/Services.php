@@ -15,9 +15,9 @@ class Services extends Model
         'image',
     ];
 
-    public function veterinary()
+    public function veterinaries()
     {
-        return $this->belongsTo(Veterinary::class);
+        return $this->belongsToMany(Veterinary::class);
     }
 
     public function service()

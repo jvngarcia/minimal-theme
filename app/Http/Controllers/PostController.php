@@ -28,7 +28,7 @@ class PostController extends Controller
             ->orderBy('created_at', 'desc')
             ->get();
 
-        return view('guest.posts', compact('search', 'posts'));
+        return view('guest.search', compact('search', 'posts'));
     }
 
     public function category(Category $category)

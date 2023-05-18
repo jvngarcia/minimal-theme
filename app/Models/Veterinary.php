@@ -14,6 +14,7 @@ class Veterinary extends Model
         'description',
         'logo',
         'email',
+        'slug',
     ];
 
     public function photosVeterinary()
@@ -38,12 +39,16 @@ class Veterinary extends Model
 
     public function services()
     {
-        return $this->hasMany(Services::class);
+        return $this->belongsToMany(Services::class);
     }
 
     public function specialization()
     {
-        return $this->hasMany(Specialization::class);
+        return $this->hasMany(VeterinarySpecialization::class);
     }
+
+
+
+
 
 }

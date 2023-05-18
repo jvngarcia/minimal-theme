@@ -17,8 +17,12 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('logo');
+            $table->string('extract');
             $table->string('description');
             $table->string('email');
+            $table->string('slug');
+            $table->string('keywords');
+            $table->string('website');
             $table->timestamps();
         });
     }

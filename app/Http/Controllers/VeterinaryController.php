@@ -44,9 +44,11 @@ class VeterinaryController extends Controller
      * @param  \App\Models\Veterinary  $veterinary
      * @return \Illuminate\Http\Response
      */
-    public function show(Veterinary $veterinary)
+    public function show(Request $request)
     {
-        //
+        $veterinary = Veterinary::where('slug', $request->slug)->get()->first();
+
+        return view('guest.veterinary', compact('veterinary'));
     }
 
     /**
