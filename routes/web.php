@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 // Controllers
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\VeterinaryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +26,6 @@ Route::prefix( '/blog' )->group(function(){
     Route::get('/{slug}', [PostController::class, 'show'])->name('blog.show');
 });
 
+Route::prefix( '/veterinarias' )->group(function(){
+    Route::get('/{slug}', [VeterinaryController::class, 'show'])->name('veterinary.show');
+});
